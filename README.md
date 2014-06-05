@@ -12,3 +12,15 @@ __How to contribute__
   * grunt watch 
 
 Now when you make edits to CSS or JS in css/ and js/ folders, they are automatically concatenated and minified in css/build/ and js/build/, respectively.  Images placed in img folder are losslessly optimized and saved to img/build/. 
+
+
+Installation
+----
+```
+git clone git@github.com:c4hrva/open-health-inspection-app.git
+npm install -g grunt-cli
+npm install 
+grunt watch&
+python -m SimpleHTTPServer 7777
+#navigate  to http://localhost:7777
+```
